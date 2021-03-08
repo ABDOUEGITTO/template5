@@ -1,0 +1,121 @@
+
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0px;
+            font-family: "Raleway", Arial, sans-serif;
+            background-color: #f1f1f1;
+        }
+        .header {
+            background-color: white;
+            overflow: auto;
+        }
+        .header a {
+            color: black;
+            margin: 36px 27px 36px 27px;
+            text-align: center;
+            display: block;
+            padding: 22px;
+            float: left;
+            font-size: 1.7vw;
+            text-decoration: none;
+            
+        }
+        .header a:hover{
+            background-color: lightgrey;
+            padding: 22px;
+            cursor: pointer;
+            border: none;
+            display: inline-block;
+            text-align: center;
+            margin: 36px 27px 36px 27px;
+        }
+            .img-half {
+            padding:0px 0px;
+            margin: 0px;
+            }
+            .img-row:after, .ing-row:before {
+            content:"";
+            display:table;
+            clear:both
+            }
+            .img-half {
+                float:left;
+                width:100%
+            }
+
+            .img-half {
+                width:49.99999%
+            }
+            .text {
+                font-size: 2.2vw;
+                text-align: center;
+                margin-top: 50px;
+                color: black;
+            }
+            .img {
+                text-align: center;
+                margin-top: 50px;
+                width: 100%;
+                height: auto;
+            }
+            .ponlytext {
+                font-size: 1.2vw;
+                text-align: center;
+                margin-top: 50px;
+                width: 50%;
+                color: black;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .pfooter {
+                font-size: 1.2vw;
+                text-align: center;
+                margin-top: 50px;
+                width: 50%;
+                color: black;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 50px;
+            }
+            .pcenter {
+                font-size: 1.2vw;
+                text-align: center;
+                color: red;
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+            .container {
+                text-align: center;
+                font-weight: bold;
+                }
+            input[type=text] {
+                text-align: center;
+                margin-top: 0px;
+                width: 50%;
+                background-color: white;
+                padding: 14px 20px;
+                margin-bottom: 20px;
+                border: lightgrey 1px solid;
+            }
+            input[type=submit] {
+                color: white;
+                font-size: 1.2vw;
+                background-color: grey;
+                width: 50%;
+                text-align: center;
+                padding: 14px 16px;
+                margin-top: 0px;
+                cursor: pointer;
+                border: none;
+            }
+            input[type=submit]:hover {
+            background-color:lightgrey;
+            }
